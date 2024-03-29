@@ -72,6 +72,7 @@ li a,a:visited{
 }
 .form-box{
     width: 90%;
+    height: 90vh;
     max-width: 450px;
     position: absolute;
     top: 50%;
