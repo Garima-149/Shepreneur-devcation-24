@@ -19,8 +19,7 @@ signinBtn.onclick = function () {
         if (identity != null) {
             selectedOption = identity.value; // Assign value to selectedOption
         }
-        console.log("Selected option: ", selectedOption);
-        console.log(areAllFieldsFilled());
+
         if ((selectedOption === "Investor" || selectedOption === "Contributor") && areAllFieldsFilled()) {
             console.log("Redirecting to services.html");
             window.location.href = "services.html";
