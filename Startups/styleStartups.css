@@ -21,6 +21,10 @@ h2 , p {
     text-align: center;
     margin: auto;
 }
+h3{
+    text-align: center;
+    margin:auto;
+}
 img{
     margin: auto;
     border-radius: 50%;
@@ -78,6 +82,9 @@ li a,a:visited{
     background-repeat: no-repeat;
     object-fit: cover;
     width: 95vw;
+    margin: auto;
+}
+ul{
     margin: auto;
 }
 .chat-container header h3 {
