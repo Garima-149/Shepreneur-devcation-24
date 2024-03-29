@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
     <script src="https://kit.fontawesome.com/efed557684.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="header">
         <img src="img/LOGO.png" alt="Image" class="logo">
@@ -24,13 +26,81 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        <div class="content">
-        </div>
         <div class="mobile-btn">
             <i class="fa-solid fa-bars"></i>
             <i class="fa-solid fa-xmark"></i>
         </div>
     </header>
+    <div class="content">
+        <h1>TELL US ABOUT YOUR STARTUP</h1>
+        <form action="#" method="post">
+            <!-- Company Overview -->
+            <label for="company_name">Company Name:</label>
+            <input type="text" id="company_name" name="company_name" required>
+
+            <label for="company_description">Company Description:</label>
+            <textarea name="company_description" id="company_description" cols="5" rows="5"></textarea>
+
+            <!-- Market Opportunity -->
+            <label for="problem_solved">Problem Solved:</label>
+            <textarea name="problem_solved" id="problem_solved" cols="5" rows="5"></textarea>
+
+            <label for="target_customers">Target Customers:</label>
+            <input type="text" id="target_customers" name="target_customers" required>
+
+            <!-- Product/Service -->
+            <label for="product_description">Product/Service Description:</label>
+            <textarea name="product_description" id="product_description" cols="5" rows="5"></textarea>
+
+            <label for="unique_selling_proposition">Unique Selling Proposition:</label>
+            <input type="text" id="unique_selling_proposition" name="unique_selling_proposition" required>
+
+            <!-- Business Model -->
+            <label for="revenue_strategy">Revenue Strategy:</label>
+            <input type="text" id="revenue_strategy" name="revenue_strategy" required>
+
+            <label for="pricing_strategy">Pricing Strategy:</label>
+            <input type="text" id="pricing_strategy" name="pricing_strategy" required>
+
+            <!-- Revenue and Traction -->
+            <label for="current_revenue">Current Revenue:</label>
+            <input type="text" id="current_revenue" name="current_revenue">
+
+            <label for="user_growth_rate">User Growth Rate:</label>
+            <input type="text" id="user_growth_rate" name="user_growth_rate">
+
+            <!-- Team -->
+            <label for="founders">Founders:</label>
+            <input type="text" id="founders" name="founders" required>
+
+            <label for="team_experience">Team Experience:</label>
+            <input type="text" id="team_experience" name="team_experience" required>
+
+            <!-- Funding Needs -->
+            <label for="funding_amount">Funding Amount Needed:</label>
+            <input type="text" id="funding_amount" name="funding_amount" required>
+
+            <!-- Market Competition -->
+            <label for="competitors">Competitors:</label>
+            <input type="text" id="competitors" name="competitors" required>
+
+            <label for="differentiation_strategy">Differentiation Strategy:</label>
+            <input type="text" id="differentiation_strategy" name="differentiation_strategy" required>
+
+            <!-- Risks and Challenges -->
+            <label for="risks_challenges">Risks and Challenges:</label>
+            <textarea name="risks_challenges" id="risks_challenges" cols="5" rows="5"></textarea>
+
+            <!-- Legal and Regulatory Compliance -->
+            <label for="legal_compliance">Legal Compliance:</label>
+            <input type="text" id="legal_compliance" name="legal_compliance" required>
+
+            <!-- Milestones and Timeline -->
+            <label for="milestones">Milestones:</label>
+            <input type="text" id="milestones" name="milestones" required>
+
+            <button class="btn">Submit</button>
+    </div>
     <footer class="footer">
         <img src="img/LOGO.png" alt="Image" class="logo2">
         <div class="follow-us">
@@ -41,6 +111,7 @@
         </div>
         <div class="copyright">&#169 2024 SHEPRENEUR</div>
     </footer>
-    
+
 </body>
+
 </html>
