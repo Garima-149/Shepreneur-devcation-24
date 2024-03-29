@@ -25,6 +25,10 @@ signinBtn.onclick = function () {
             console.log("Redirecting to services.html");
             window.location.href = "services.html";
         }
+        else if ((selectedOption === "Presenter") && areAllFieldsFilled()) {
+            console.log("Redirecting to form.html");
+            window.location.href = "form.html";
+        }
     }
 }
 
