@@ -59,35 +59,12 @@ li a,a:visited{
 .content{
     overflow-x: hidden; 
     padding: 5rem 1.5rem;
-    height: 100vh;
     font-weight: bold;
     background:url("img/bg.png");
-    background-position: center;
-    /* background-size: cover; */
     background-repeat: repeat;
     object-fit: cover;
     width: 95vw;
     margin: auto;
-    position: relative;
-}
-.btn-field{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.btn-field button{
-    font-family: "Martel Sans";
-    max-width: 50%;
-    margin: 2rem;
-    background-color: lightblue;
-    border: 4px solid black;
-    border-radius: 2rem;
-    font-size: 1.5rem;
-}
-.btn-field button:hover{
-    background-color: rgb(91, 144, 162);
-    transform: scale(1.1);
 }
 footer{
     overflow-x: hidden; 
