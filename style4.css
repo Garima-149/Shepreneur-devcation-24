@@ -50,11 +50,10 @@ li a,a:visited{
     text-decoration: underline;
 }
 .content{
-    border: 2px solid green;
     padding: 5rem 1.5rem;
     font-weight: bold;
-    background:url("img/bg.png");
     background-repeat: no-repeat;
+    /* background: url("img/bg.png"); */
     object-fit: cover;
     width: 95vw;
     margin: auto;
@@ -209,3 +208,31 @@ img {
          font-size: 0.8rem;
         }
  }
+ /* Contact us */
+.form{
+    display: flex;
+}
+.contact-head{
+    margin: 0.5rem;
+    text-align: center;
+    /* padding: 1rem; */
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.contact-us{
+    background-color: #ffe681;
+    border: 2px solid #000;
+    width: 30vw;
+    margin: 1rem;
+    padding: 1rem;
+}
+.first-section{
+    display: flex;
+    gap: 2rem;
+}
+.opt{
+    text-align: center;
+}
+.first-name, .last-name, .email, .phone, .reason{
+    font-weight: bold;
+}
