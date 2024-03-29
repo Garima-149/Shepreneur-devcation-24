@@ -10,6 +10,7 @@ const faqData = {
     "How can I view the products?": "Go to our 'SERVICES' page",
     "Where can I find about startups": "Go to our 'SERVICES' page",
     "How are you?": "I am fine! How can I help you?",
+    "I am feeling stressed!":"No need to worry, we've got your back! Just go to CALM ZONE and Relax!"
 };
 
 const inputInitHeight = chatInput.scrollHeight;
