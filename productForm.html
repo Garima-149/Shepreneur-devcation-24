@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style8.css">
+    <link rel="stylesheet" href="style7.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -30,7 +30,74 @@
         </div>
     </header>
     <div class="content">
+        <h1>DESCRIBE YOUR INNOVATIVE PRODUCT</h1>
+    <form action="submit.php" method="POST"> <!-- Replace submit.php with your form handling script -->
+        <!-- Product Information -->
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName" required>
 
+        <label for="productCategory">Product Category:</label>
+        <input type="text" id="productCategory" name="productCategory">
+
+        <label for="productDescription">Product Description:</label>
+        <textarea id="productDescription" name="productDescription" rows="4" required></textarea>
+
+        <!-- Features and Functionality -->
+        <label for="productFeatures">Key Features:</label>
+        <textarea id="productFeatures" name="productFeatures" rows="4"></textarea>
+
+        <!-- Target Audience -->
+        <label for="targetAudience">Target Audience:</label>
+        <textarea id="targetAudience" name="targetAudience" rows="4"></textarea>
+
+        <!-- Unique Selling Proposition (USP) -->
+        <label for="uniqueSellingProposition">Unique Selling Proposition (USP):</label>
+        <textarea id="uniqueSellingProposition" name="uniqueSellingProposition" rows="4"></textarea>
+
+        <!-- Product Images and Media -->
+        <label for="productImages">Product Images/Videos:</label>
+        <input type="file" id="productImages" name="productImages" accept="image/*, video/*">
+
+        <!-- Technical Specifications -->
+        <label for="technicalSpecifications">Technical Specifications:</label>
+        <textarea id="technicalSpecifications" name="technicalSpecifications" rows="4"></textarea>
+
+        <!-- Pricing and Availability -->
+        <label for="pricing">Pricing:</label>
+        <input type="text" id="pricing" name="pricing">
+
+        <label for="availability">Availability:</label>
+        <input type="text" id="availability" name="availability">
+
+        <!-- Support and Documentation -->
+        <label for="supportOptions">Support Options:</label>
+        <textarea id="supportOptions" name="supportOptions" rows="4"></textarea>
+
+        <label for="documentation">Documentation/User Guides:</label>
+        <input type="file" id="documentation" name="documentation" accept=".pdf">
+
+        <!-- Reviews and Testimonials -->
+        <label for="reviews">Customer Reviews/Testimonials:</label>
+        <textarea id="reviews" name="reviews" rows="4"></textarea>
+
+        <!-- Integration and Compatibility -->
+        <label for="integration">Integration:</label>
+        <textarea id="integration" name="integration" rows="4"></textarea>
+
+        <label for="compatibility">Compatibility:</label>
+        <textarea id="compatibility" name="compatibility" rows="4"></textarea>
+
+        <!-- Security and Privacy -->
+        <label for="securityMeasures">Security Measures:</label>
+        <textarea id="securityMeasures" name="securityMeasures" rows="4"></textarea>
+
+        <!-- Future Development and Roadmap -->
+        <label for="futureDevelopment">Future Development/Roadmap:</label>
+        <textarea id="futureDevelopment" name="futureDevelopment" rows="4"></textarea>
+
+        <!-- Submit Button -->
+        <button class="btn" type="submit">Submit</button>
+    </form>
     </div>
     <footer class="footer">
         <img src="img/LOGO.png" alt="Image" class="logo2">
