@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Martel Sans", sans-serif;
+
+}
+html,body{
+    overflow-x: hidden;
+}
+.header{
+    overflow: hidden;
+    /* position: fixed; */
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightblue;
+}
+.logo{
+    height: 10rem;
+    width: 8rem;
+    object-fit: cover;
+    margin-left: 1rem;
+}
+.navbar{
+    padding: 1rem;
+    margin-right: 2rem;
+}
+.navbar-list{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+li a,a:visited{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+@media (max-width:995px) {
+    .navbar-list{
+        gap: 2rem;
+    }
+    li a,a:visited{
+        font-size: 1rem;
+    }
+}
+.navbar-list li a:hover{
+    opacity: 50%;
+    text-decoration: underline;
+}
+.content{
+    padding: 5rem 1.5rem;
+    font-weight: bold;
+    background:url("../img/9.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 95vw;
+    margin: auto;
+}
+.chat-container header h3 {
+    position: relative;
+    top: 3rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    background-color: lightblue;
+    max-width: 16rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: 2px solid black;
+    transform: translateY(-50%);
+  }
+#chat-btn{
+    position: fixed;
+    left: 2rem;
+    top: 10rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgb(80, 183, 218);
+    transition: all 0.2s ease;
+}
+#chat-btn:hover{
+  background: #add8e6;
+}
+.material-symbols-rounded{
+    color: #fff;
+  }
+body.show-chatbot #chat-btn {
+    transform: rotate(90deg);
+  }
+.chat-container {
+    position: fixed;
+    top: 1.6rem;
+    right: 0rem;
+    width: 300px;
+    height: 90%;
+    background-color: #ecebb0;
+    background:url("../img/9.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 2rem;
+    border-left: 1px solid #ccc;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+}
+
+.chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.chat-input {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.chat-input input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    margin-right: 10px;
+    bottom: 1rem;
+}
+
+.chat-input button {
+    padding: 8px 15px;
+    background-color: rgb(81, 172, 202);
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background-color: rgb(103, 103, 39);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 16rem;
+    background-color: lightblue;
+    gap: 1rem;
+}
+
+  body.show-chatbot #chat-btn {
+    transform: rotate(90deg);
+  }
+
+.logo2{
+    height: 6rem;
+    width: 9rem;
+    object-fit: cover;
+}
+.icons .fa-brands{
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    /* background: linear-gradient(#c91f1f,#fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.follow-us{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.copyright{
+    font-size: 1.1rem;
+}
