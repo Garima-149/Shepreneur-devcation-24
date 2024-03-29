@@ -10,6 +10,22 @@
 html,body{
     overflow-x: hidden;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; 
+    background: url('/img/bg.png');
+}
+h2 , p {
+    text-align: center;
+    margin: auto;
+}
+img{
+    margin: auto;
+    border-radius: 50%;
+}
+
 .header{
     overflow: hidden;
     /* position: fixed; */
@@ -78,8 +94,8 @@ li a,a:visited{
   }
 #chat-btn{
     position: fixed;
-    left: 2rem;
-    top: 10rem;
+    bottom: 30px;
+    right: 35px;
     outline: none;
     border: none;
     height: 50px;
@@ -153,15 +169,16 @@ body.show-chatbot #chat-btn {
 .chat-input button:hover {
     background-color: rgb(103, 103, 39);
 }
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    height: 16rem;
+    height: 16rem; 
     background-color: lightblue;
     gap: 1rem;
+    margin-top: auto; 
 }
 
   body.show-chatbot #chat-btn {
