@@ -149,6 +149,7 @@ li a,a:visited{
     font-size: 1.1rem;
     display: flex;
     text-align: center;
+    justify-content: center;
     
 }
 ul{
