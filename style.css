@@ -151,7 +151,12 @@ li a,a:visited{
     text-align: center;
     
 }
-ul{
+.vision1{
+    display: flex;
+    gap: 1rem;
+}
+
+/* ul{
     text-align: center;
     list-style: none;
 }
@@ -167,11 +172,8 @@ ul{
     scale: 1.02;
     background-color: bisque;
     cursor: pointer;
-}
-.vision1{
-    display: flex;
-    gap: 1rem;
-}
+} */
+
 /* .para1:hover{
     animation: slideIn 1s;
 }
