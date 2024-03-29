@@ -90,6 +90,10 @@ li a,a:visited{
     width: 95vw;
     margin: auto;
 }
+.content img{
+    display: block;
+    margin: auto;
+}
 .chat-container header h3 {
     position: relative;
     top: 3rem;
@@ -218,3 +222,16 @@ body.show-chatbot #chat-btn {
 .copyright{
     font-size: 1.1rem;
 }
+#formDataDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+#formDataDisplay p{
+    margin: 1rem; 
+    font-weight: bold;
+}
+
