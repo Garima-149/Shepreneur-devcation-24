@@ -150,9 +150,9 @@ li a,a:visited{
     display: flex;
     text-align: center;
     justify-content: center;
-    
+
 }
-ul{
+/* ul{
     text-align: center;
     list-style: none;
 }
@@ -172,7 +172,7 @@ ul{
 .vision1{
     display: flex;
     gap: 1rem;
-}
+} */
 /* .para1:hover{
     animation: slideIn 1s;
 }
