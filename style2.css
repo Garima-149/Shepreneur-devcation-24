@@ -78,7 +78,7 @@ li a,a:visited{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: lightblue ;
+    background: rgba(173, 216, 230, 0.849) ;
     padding: 50px 60px 70px;
     text-align: center;
 }
