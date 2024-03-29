@@ -9,6 +9,9 @@
 html,body{
     overflow-x: hidden;
 }
+body{
+    background-color: #E3F2FD;
+}
 .header{
     /* overflow: hidden; */
     /* position: static; */
@@ -47,6 +50,7 @@ li a,a:visited{
     text-decoration: underline;
 }
 .content{
+    border: 2px solid green;
     padding: 5rem 1.5rem;
     font-weight: bold;
     background:url("img/bg.png");
@@ -80,7 +84,7 @@ img {
     font-weight: bold;
 }
 .caption p{
-    color: blue;
+    color: #000;
 }
 
 .footer{
@@ -116,3 +120,92 @@ img {
 .copyright{
     font-size: 1.1rem;
 }
+
+
+/* FAQ Section */
+.faq-container{
+    margin: 2rem;
+    background-color: #fff;
+    padding: 1rem;
+}
+.faq-head{
+    text-align: center;
+    margin: 1rem;
+}
+
+.content-container{
+    padding: 0.5rem;
+}
+.faq-question{
+    border: 2px solid #000;
+    display: flex;
+    position: relative;
+    background-color: #ffe681;
+    border-radius: 0.5rem;
+    max-height: 3rem;
+    line-height: 3rem;
+}
+.ques-head{
+    margin-left: 1rem;
+    width: 85vw;
+}
+
+.open, .close{
+    position: absolute;
+    right: 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    opacity: 0;
+    transform: translateY(-4rem);
+}
+.open.active, .close.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+.faq-content{
+    background-color: rgb(211, 236, 245);
+    border-radius: 0.5rem;
+    font-weight: bold;
+    max-height: 0rem;
+    overflow: hidden;
+}
+.faq-content.active{
+    padding: 0.5rem;
+    max-height: 17rem;
+}
+.email-us{
+    color: rgb(80, 10, 80);
+    text-decoration: underline;
+}
+
+@media (max-width:870px) {
+    .faq-question{
+     max-height: 10rem;
+     line-height: 2rem;
+    }  
+    .ques-head{
+     font-size: 1rem;
+     width: 70vw;
+    }
+ }
+ @media(max-width:620px){
+     .ques-head{
+         font-size: 1rem;
+         width: 62vw;
+        }
+        .faq-content{
+         font-size: 0.9rem;
+        }
+ }
+ @media(max-width:480px){
+     .ques-head{
+         font-size: 0.9rem;
+         width: 55vw;
+        }
+        .open, .close{
+         font-weight: 700;
+        }
+        .faq-content{
+         font-size: 0.8rem;
+        }
+ }
