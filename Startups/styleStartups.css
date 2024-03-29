@@ -21,6 +21,16 @@ h2 , p {
     text-align: center;
     margin: auto;
 }
+h3{
+    text-align: center;
+    margin:auto;
+}
+.new-ul{
+    margin: auto;
+}
+.new-ol{
+    margin: auto;
+}
 img{
     margin: auto;
     border-radius: 50%;
