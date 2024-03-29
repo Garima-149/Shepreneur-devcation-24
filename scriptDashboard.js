@@ -11,7 +11,7 @@ signinBtn.onclick = function(){
     signinBtn.classList.remove("disable");
 }
 signupBtn.onclick = function(){
-    nameField.style.maxHeight = "65px";
+    nameField.style.maxHeight = "55px";
     title.innerHTML = "Sign Up";
     signupBtn.classList.remove("disable");
     signinBtn.classList.add("disable");

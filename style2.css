@@ -88,7 +88,7 @@ li a,a:visited{
 .form-box h1::after{
     content: "";
     width: 30px;
-    height: 4px;
+    height: 3px;
     border-radius: 3px;
     background: black;
     position: absolute;
@@ -97,17 +97,17 @@ li a,a:visited{
     transform: translateX(-50%);
 }
 .input-group{
-    height: 320px;
+    height: 290px;
 }
 .input-field{
     background: rgb(165, 198, 209);
-    margin: 15px 0;
+    margin: 10px 0;
     border-radius: 3px;
     display: flex;
     align-items: center;
     margin-left: 15px;
     color: #999;
-    max-height: 65px;
+    max-height: 55px;
     transition: max-height 0.5s;
     overflow: hidden;
 }
