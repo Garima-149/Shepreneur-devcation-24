@@ -50,10 +50,11 @@ li a,a:visited{
     text-decoration: underline;
 }
 .content{
+    border: 2px solid green;
     padding: 5rem 1.5rem;
     font-weight: bold;
     background-repeat: no-repeat;
-    /* background: url("img/bg.png"); */
+    background: url("img/bg.png");
     object-fit: cover;
     width: 95vw;
     margin: auto;
@@ -211,11 +212,13 @@ img {
  /* Contact us */
 .form{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contact-head{
     margin: 0.5rem;
     text-align: center;
-    /* padding: 1rem; */
+    padding: 1rem;
     font-size: 1.3rem;
     font-weight: bolder;
 }
@@ -226,6 +229,19 @@ img {
     margin: 1rem;
     padding: 1rem;
 }
+@media(max-width:480px){
+    .contact-us{
+        width: 90vw;
+        margin-right: 1rem;
+    }
+}
+@media(max-width:760px){
+    .contact-us{
+        width: 70vw;
+        margin-right: 1rem;
+    }
+}
+
 .first-section{
     display: flex;
     gap: 2rem;
