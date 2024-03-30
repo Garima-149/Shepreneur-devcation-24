@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0; 
-    background: url('/img/bg.png');
+    background: url("https://github.com/diya05arora/Shepreneur/blob/8b6c95e61d90e3e5341bf5d1533689c5029aacee/img/bg.png");
 }
 h2 , p {
     text-align: center;
@@ -84,7 +84,7 @@ li a,a:visited{
 .content{
     padding: 5rem 1.5rem;
     font-weight: bold;
-    background:url("../img/bg.png");
+    background:url("https://github.com/diya05arora/Shepreneur/blob/8b6c95e61d90e3e5341bf5d1533689c5029aacee/img/bg.png");
     background-repeat: no-repeat;
     object-fit: cover;
     width: 95vw;
@@ -138,7 +138,7 @@ body.show-chatbot #chat-btn {
     width: 300px;
     height: 90%;
     background-color: #ecebb0;
-    background:url("../img/bg.png");
+    background:url("https://github.com/diya05arora/Shepreneur/blob/8b6c95e61d90e3e5341bf5d1533689c5029aacee/img/bg.png");
     background-repeat: no-repeat;
     object-fit: cover;
     border-radius: 2rem;
