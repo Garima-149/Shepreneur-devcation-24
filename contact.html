@@ -24,6 +24,10 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+        <div class="mobile-btn">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
     </header>
     <!--Content Section Starts-->
     <div class="content">
@@ -170,4 +174,13 @@
     </footer>
 </body>
      <script src="contact.js"></script>
+     <script>
+        // Hamburger button
+
+const clickBar=document.querySelector(".mobile-btn");
+const navHeader=document.querySelector(".header");
+clickBar.addEventListener("click",()=>{
+    navHeader.classList.toggle("active");
+})
+     </script>
 </html>
