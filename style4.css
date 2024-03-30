@@ -107,7 +107,6 @@ img {
     }
 }
 .thumbnail {
-    border: 1px solid green;
     position: relative;
     display: inline-block;
 }
