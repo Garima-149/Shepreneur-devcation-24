@@ -11,29 +11,7 @@ html,body{
     overflow-x: hidden;
 }
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0; 
-    background: url("https://github.com/diya05arora/Shepreneur/blob/8b6c95e61d90e3e5341bf5d1533689c5029aacee/img/bg.png");
-}
-h2 , p {
-    text-align: center;
-    margin: auto;
-}
-h3{
-    text-align: center;
-    margin:auto;
-}
-.new-ul{
-    margin: auto;
-}
-.new-ol{
-    margin: auto;
-}
-img{
-    margin: auto;
-    border-radius: 50%;
+    background-image: url("/img/bg.png");
 }
 
 .header{
@@ -81,17 +59,32 @@ li a,a:visited{
     opacity: 50%;
     text-decoration: underline;
 }
+h2 , p {
+    text-align: center;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    margin:auto;
+}
+.new-ul{
+    margin: auto;
+}
+.new-ol{
+    margin: auto;
+}
+.logImg{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
 .content{
     padding: 5rem 1.5rem;
     font-weight: bold;
-    background:url("https://github.com/diya05arora/Shepreneur/blob/8b6c95e61d90e3e5341bf5d1533689c5029aacee/img/bg.png");
+    background-image:url("../img/bg.png");
     background-repeat: no-repeat;
     object-fit: cover;
     width: 95vw;
-    margin: auto;
-}
-.content img{
-    display: block;
     margin: auto;
 }
 .chat-container header h3 {
@@ -109,7 +102,7 @@ li a,a:visited{
 #chat-btn{
     position: fixed;
     bottom: 30px;
-    right: 35px;
+    right: 40px;
     outline: none;
     border: none;
     height: 50px;
@@ -133,12 +126,12 @@ body.show-chatbot #chat-btn {
   }
 .chat-container {
     position: fixed;
-    top: -0.5rem;
+    top: 1.6rem;
     right: 0rem;
     width: 300px;
     height: 90%;
     background-color: #ecebb0;
-    background:url("https://github.com/diya05arora/Shepreneur/blob/8b6c95e61d90e3e5341bf5d1533689c5029aacee/img/bg.png");
+    background:url("../img/bg.png");
     background-repeat: no-repeat;
     object-fit: cover;
     border-radius: 2rem;
@@ -183,16 +176,15 @@ body.show-chatbot #chat-btn {
 .chat-input button:hover {
     background-color: rgb(103, 103, 39);
 }
-.footer {
+.footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    height: 16rem; 
+    height: 16rem;
     background-color: lightblue;
     gap: 1rem;
-    margin-top: auto; 
 }
 
   body.show-chatbot #chat-btn {
@@ -234,4 +226,3 @@ body.show-chatbot #chat-btn {
     margin: 1rem; 
     font-weight: bold;
 }
-
