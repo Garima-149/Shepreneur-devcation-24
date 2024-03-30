@@ -163,7 +163,6 @@ li a,a:visited{
 .box-section{
     display: flex;
     gap: 2rem;
-    border: 1px solid black;
     padding: 1rem;
     justify-content: center;
     align-items: center;
@@ -172,17 +171,18 @@ li a,a:visited{
 .boxes{
     border: 2px solid #000;
     width: 25vw;
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.2s ease-in-out;
     padding: 0.5rem;
+    border-radius: 2rem;
 }
 .boxes h3{
     background-color: bisque;
-    max-height: 4rem;
+    max-height: 6rem;
     text-align: center;
 }
 .boxes p{
-    background-color: lightblue;
-    max-height: 18rem;
+    background-color: rgb(192, 226, 238);
+    max-height: 40rem;
     text-align: center;
 }
 .boxes:hover{
@@ -195,6 +195,25 @@ li a,a:visited{
     font-size: 3rem;
     padding: 0.5rem;
 }
+@media(max-width:920px) {
+    .boxes{
+        width: 60vw;
+    }
+}
+@media(max-width:820px) {
+    .box-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .boxes{
+        width: 70vw;
+    }
+}
+@media(max-width:460px) {
+    .boxes{
+        width: 60vw;
+    }
+} 
 /* ul{
     text-align: center;
     list-style: none;
