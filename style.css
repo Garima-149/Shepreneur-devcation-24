@@ -155,7 +155,46 @@ li a,a:visited{
     display: flex;
     gap: 1rem;
 }
-
+.features h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.box-section{
+    display: flex;
+    gap: 2rem;
+    border: 1px solid black;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.boxes{
+    border: 2px solid #000;
+    width: 25vw;
+    transition: transform 0.4s ease-in-out;
+    padding: 0.5rem;
+}
+.boxes h3{
+    background-color: bisque;
+    max-height: 4rem;
+    text-align: center;
+}
+.boxes p{
+    background-color: lightblue;
+    max-height: 18rem;
+    text-align: center;
+}
+.boxes:hover{
+    scale:1.1;
+    cursor: pointer;
+}
+.fa-solid.fa-comments, .fa-solid.fa-globe, .fa-solid.fa-handshake{
+   display: flex;
+   justify-content: center; 
+    font-size: 3rem;
+    padding: 0.5rem;
+}
 /* ul{
     text-align: center;
     list-style: none;
