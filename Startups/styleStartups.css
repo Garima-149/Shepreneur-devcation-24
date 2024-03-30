@@ -59,16 +59,27 @@ li a,a:visited{
 h2 , p {
     text-align: center;
     margin: auto;
+
 }
 h3{
     text-align: center;
     margin:auto;
+    font-size: 1.5rem;
+    color: rgb(9, 9, 103);
+}
+.text{
+    font-size: 1.8rem;
+    color: rgb(14, 14, 53);
 }
 .new-ul{
     margin: auto;
 }
 .new-ol{
     margin: auto;
+}
+li{
+    text-align: center;
+    list-style: none;
 }
 .logImg{
     border-radius: 50%;
@@ -84,6 +95,8 @@ h3{
     width: 95vw;
     margin: auto;
 }
+
+
 .chat-container header h3 {
     position: relative;
     top: 3rem;
