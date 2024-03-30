@@ -164,6 +164,7 @@ li a,a:visited{
     display: flex;
     gap: 2rem;
     padding: 1rem;
+    border-radius: 2rem;
     justify-content: center;
     align-items: center;
     background-color: #fff;
@@ -172,7 +173,7 @@ li a,a:visited{
     border: 2px solid #000;
     width: 25vw;
     transition: transform 0.2s ease-in-out;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 2rem;
 }
 .boxes h3{
@@ -184,6 +185,7 @@ li a,a:visited{
     background-color: rgb(192, 226, 238);
     max-height: 40rem;
     text-align: center;
+    padding: 0.5rem;
 }
 .boxes:hover{
     scale:1.1;
@@ -211,9 +213,9 @@ li a,a:visited{
 }
 @media(max-width:460px) {
     .boxes{
-        width: 60vw;
+        width: 70vw;
     }
-} 
+}
 /* ul{
     text-align: center;
     list-style: none;
