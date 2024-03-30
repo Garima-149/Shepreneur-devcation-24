@@ -223,3 +223,19 @@ body.show-chatbot #chat-btn {
     margin: 1rem; 
     font-weight: bold;
 }
+.invest , .contribute{
+    display: block;
+    margin: auto;
+    background-color: lightblue;
+    font-family: "Martel Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.4rem;
+    border-radius: 20%;
+}
+.invest a, .contribute a{
+    text-decoration: none;
+}
+.invest:hover , .contribute:hover{
+    background-color: rgb(71, 171, 204);
+}
