@@ -148,8 +148,7 @@ li a,a:visited{
 .mission-para, .vision-para{
     font-size: 1.1rem;
     display: flex;
-    text-align: center;
-    
+    text-align: justify;
 }
 .vision1{
     display: flex;
@@ -216,6 +215,11 @@ li a,a:visited{
         width: 70vw;
     }
 }
+.para1{
+    width: 100vw;
+    font-size: 1.2rem;
+}
+
 /* ul{
     text-align: center;
     list-style: none;
@@ -245,9 +249,6 @@ li a,a:visited{
         margin-left: 5rem;
     }
 } */
-.para1{
-    width: 100vw;
-}
 
 
 /*Content Section ends*/
