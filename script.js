@@ -83,3 +83,14 @@ document.addEventListener('DOMContentLoaded', function() {
         chatBox.style.display = 'block';
     }
 });
+
+const clickBar=document.querySelector(".mobile-btn");
+const navHeader=document.querySelector(".header");
+clickBar.addEventListener("click",()=>{
+    navHeader.classList.toggle("active");
+});
+
+let wrapperId=document.getElementById("wrapperId");
+clickBar.onclick=function() {
+    wrapperId.innerHTML="";
+};

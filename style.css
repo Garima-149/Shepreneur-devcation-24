@@ -99,6 +99,18 @@ li a,a:visited{
         font-size: 3rem;
     }
 }
+@media(max-width:670px){
+    .intro-head{
+        margin: 12rem 15rem;
+        font-size: 2.5rem;
+    }
+}
+@media(max-width:530px) {
+    .intro-head{
+        margin: 12rem 9rem;
+        font-size: 2.2rem;
+    }
+}
 .second-head{
     margin-top: 18rem;
     margin-left: 35rem;
@@ -127,7 +139,12 @@ li a,a:visited{
         margin-left: 20rem;
     }
 }
-
+@media(max-width:670px) {
+    .second-head{
+        margin-left: 12rem;
+        font-size: 2.5rem;
+    }
+}
 /*Introduction Ends*/
 /* Content Section starts */
 .content{
