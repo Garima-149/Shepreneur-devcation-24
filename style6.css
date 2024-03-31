@@ -162,7 +162,6 @@ footer{
         transition: all 0.6s linear;
         opacity: 0;
         visibility: hidden;
-        pointer-events: none;
     }
     .navbar-list{
         flex-direction: column;
