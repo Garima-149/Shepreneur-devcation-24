@@ -16,3 +16,19 @@ faqQuestion.forEach((faq)=>{
         }
      });
 });
+    
+const clickBar=document.querySelector(".mobile-btn");
+const navHeader=document.querySelector(".header");
+clickBar.addEventListener("click",()=>{
+    navHeader.classList.toggle("active");
+})
+
+let mobileBtn = document.getElementById("mobile-btn");
+let head = document.getElementById("head");
+let box = document.getElementById("box");
+mobileBtn.onclick = function(){
+    head.innerHTML="";
+    head.style.background="none";
+    if(box)
+    box.parentNode.removeChild(box);
+}

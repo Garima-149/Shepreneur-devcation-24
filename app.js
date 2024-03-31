@@ -19,3 +19,9 @@ const navHeader=document.querySelector(".header");
 clickBar.addEventListener("click",()=>{
     navHeader.classList.toggle("active");
 })
+
+let mobileBtn = document.getElementById("mobile-btn");
+let startup = document.getElementById("startup");
+mobileBtn.onclick = function(){
+    head.innerHTML="";
+}

@@ -101,11 +101,7 @@ img {
         margin-left: -50rem;
     }
 }
-@media (max-width:670px){
-    .thumbnail{
-        margin-top: 70vh;
-    }
-}
+
 .thumbnail {
     position: relative;
     display: inline-block;
@@ -342,9 +338,6 @@ img {
         opacity: 1;
         visibility: visible;
         transform: translateX(0);
-    }
-    .heads{
-        display: none;
     }
     .active .fa-solid.fa-xmark{
         display: block;

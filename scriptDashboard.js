@@ -57,3 +57,15 @@ function areAllFieldsFilled2() {
     return name.trim()!== "" && email.trim() !== "" && password.trim() !== "";
 }
 
+const clickBar=document.querySelector(".mobile-btn");
+const navHeader=document.querySelector(".header");
+clickBar.addEventListener("click",()=>{
+    navHeader.classList.toggle("active");
+})
+
+let mobileBtn = document.getElementById("mobile-btn");
+let box = document.getElementById("box");
+mobileBtn.onclick = function(){
+    box.innerHTML="";
+    box.style.background="none";
+}
