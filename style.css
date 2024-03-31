@@ -401,13 +401,16 @@ li a,a:visited{
         visibility: visible;
         transform: translateX(0);
     }
-    .heads{
-        display: none;
-    }
-    .active .fa-solid.fa-xmark{
+    /* .heads{
+        z-index: -1;
+    } */
+    .active .fa-solid .fa-xmark{
         display: block;
         border: 3px solid black;
         font-size: 2rem;
+    }
+    .active #close{
+        display: block;
     }
     .active .fa-bars{
         display: none;
